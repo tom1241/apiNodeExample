@@ -4,7 +4,7 @@ const config = () => {
     switch (env) {
         case 'dev' :
             return {
-                bd_String: 'mongodb+srv://dev_user:teste123@cluster0-tethu.mongodb.net/test?retryWrites=true',
+                bd_String: '',
                 jwt_pass: 'Suc0D34b0b0r4',
                 expires: '1d'
             }
